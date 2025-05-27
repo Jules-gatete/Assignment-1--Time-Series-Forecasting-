@@ -7,7 +7,7 @@ Predict hourly PM2.5 concentrations using a Long Short-Term Memory (LSTM) model 
 ## Repository Structure
 
 ```
-├── pm25_prediction.ipynb   # Data cleaning, feature engineering, model training, tuning, and visualization
+├── Assignment_1_Time_Series_Forecasting.ipynb   # Data cleaning, feature engineering, model training, tuning, and visualization
 ├── submission3.csv         # Best model predictions (public RMSE: 4740.7316)
 ├── report.pdf              # Detailed methodology, experiments, and results
 └── README.md               # Project overview and instructions
