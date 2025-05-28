@@ -2,7 +2,7 @@
 
 ## Overview
 
-Predict hourly PM2.5 concentrations using a Long Short-Term Memory (LSTM) model tuned with Optuna. This project was developed for the Kaggle competition **Assignment 1 - Time Series Forecasting (May 2025)** and achieved a public RMSE of **4740.73**.
+Predict hourly PM2.5 concentrations using a Long Short-Term Memory (LSTM) model tuned with Optuna. This project was developed for the Kaggle competition **Assignment 1 - Time Series Forecasting (May 2025)** and achieved a public RMSE of **4740.73**. and (**Validation Performance Metrics: RMSE: 67.09, MAE: 45.18 and R² Score: 0.27**)
 
 ## Repository Structure
 
@@ -39,8 +39,12 @@ Predict hourly PM2.5 concentrations using a Long Short-Term Memory (LSTM) model 
 
 4. **Results**
 
-   * Public RMSE: **4740.73** (submission3.csv)
-   * Validation (last 100 samples): RMSE=88.71, MAE=64.50, R²≈–0.09
+   * Public RMSE (kaggle): **4740.73** (submission3.csv) & 
+   * Validation Performance Metrics:
+   * RMSE: 67.09
+   * MAE: 45.18
+   * R² Score: 0.27
+   * Validation (last 100 samples):**RMSE=67.09, MAE=45.18, R²≈0.27**
    * Key predictors: temperature, dew point, and time-of-day patterns
 
 ## Usage
